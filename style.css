@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    text-decoration: none!important;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #353A40;
+    display: flex;
+}
+.containerlogo{
+    width: 35%;
+    height: 100px;
+    background-color: #353A40;
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+.containerlogo img{
+    width: 140px;
+    height: 80px;
+}
+.navbar{
+    width: 65%;
+    height: 100px;
+    background-color: #353A40;
+    display: flex;
+}
+.menunavbar{
+    align-items: center;
+    align-content: center;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.nav-item, .nav-item2{
+    margin-right: 20px;
+    color: #9C9D98;
+}
+.nav-item2{
+    color: #2DA446;
+}
+.nav-item:first-child{
+    color:white; 
+}
+.infograf{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 580px;
+    background-image: url(ba1.jpg);
+    background-size: cover;
+    background-position-y: -150px;
+}
+.infografopacity{
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    background-color: black;
+    opacity: 0.5;
+}
+.textinfo{
+    padding: 5px;
+    position: absolute;
+    width: 45%;
+    height: 50%;
+    margin-left: 47%;
+    margin-top: 170px;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
+.titlecards{
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+.titlecards p{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+#bigtitle{
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 500;
+}
+#cards{
+    width: 70%!important;
+}
+.card{
+    margin-right: 30px!important;
+}
+.card-text{
+    font-size: 12px!important;
+}
+#buttons{
+    align-items: center!important;
+    text-align: center!important;
+    font-size: 13px!important;
+    align-content: center!important;
+    height: 24px!important;
+    padding: 1px!important;
+    font-weight: 700!important;
+    width: 70px!important;
+}
+#buttons2{
+    background-color: #16A1B8;
+    align-items: center!important;
+    text-align: center!important;
+    font-size: 13px!important;
+    align-content: center!important;
+    height: 24px!important;
+    padding: 1px!important;
+    font-weight: 700!important;
+    color: white!important;
+    width: 48px!important;
+}
+#buttons3{
+    align-items: center!important;
+    text-align: center!important;
+    font-size: 13px!important;
+    align-content: center!important;
+    height: 20px!important;
+    padding: 0px!important;
+    font-weight: 700!important;
+    width: 72px!important;
+}
+#buttons4{
+    align-items: center!important;
+    text-align: center!important;
+    font-size: 13px!important;
+    align-content: center!important;
+    height: 20px!important;
+    padding: 0px!important;
+    font-weight: 700!important;
+    width: 70px!important;
+}
+#infobeach{
+    margin-top: 30px;
+    display: flex;
+}
+.beach{
+    background-image: url(honolulu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 50%;
+    height: 350px;
+    margin-right: 1px;
+}
+.info{
+    background-color: #353A40;
+    width: 50%;
+    height: 350px;
+}
+.infotitle{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white;
+}
+.infotitle2{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+}
+#buttons5{
+    margin-left: 10px!important;
+}
+.titlecards2{
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+.titlecards2 p{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+#formcontainer{
+    width: 50%!important;
+}
+.form-group{
+    margin-top: 20px!important;
+}
+#comment::placeholder {
+    font-size: 20px!important;
+}
+.formp{
+    font-size: 12px;
+    color: grey;
+}
+#buttonsend{
+    background-color: #96C93E!important;
+    border-color: #96C93E!important;
+}
+#footer{
+    margin-top: 30px!important;
+    background-color: #1D4962!important;
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+}
+.navbar2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menunavbar2{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 15px;
+    text-align: center!important;}
+
+.nav-item3{
+    align-items: center;
+    align-content: center;
+    margin-right: 70px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100%;
+    text-align: center!important;
+}
+#largeitem{
+    width: 70px!important;
+}
+#promos{
+    margin-top: 30px!important;
+    width: 800px!important;
+}
+#est{
+    text-align: center;
+    margin-right: 5px!important;
+    border: 2px #3D6B9C solid;
+    border-radius: 1px!important;
+}
+#train{
+    text-align: center;
+    margin-right: 5px!important;
+    border: #588A95 2px solid;
+    border-radius: 1px!important;
+}
+#jun{
+    text-align: center;
+    border: 2px solid #D8C07A;
+    border-radius: 1px!important;
+}
+.titleprom{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.desc{
+    margin-bottom: 20px;
+    font-size: 20px!important;
+}
+.porcent{
+    margin-bottom: 20px;
+    font-size: 20px!important;
+    font-weight: bold;
+}
+.documentation{
+    color: grey;
+    margin-bottom: 20px!important;
+}
+#littletitle{
+    font-size: 15px!important;
+}
+#formmail{
+    margin-top: 20px!important;
+}
+#formcontainer2{
+    margin-top: 20px!important;
+    width: 800px!important;
+}
+.labels{
+    margin-top: 15px;
+}
+#totalprice{
+    height: 60px!important;
+    background-color: #CBE5FE;
+}
